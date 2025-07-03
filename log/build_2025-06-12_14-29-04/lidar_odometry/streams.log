@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[0.075s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[3.944s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[3.945s]                  from [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/lidar_odometry_node.cpp:3[m[K:
+[3.945s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/lidar_odometry_node.cpp:[m[K In member function ‘[01m[Kvoid LidarOdometryNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.945s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/lidar_odometry_node.cpp:72:77:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K’
+[3.945s]    72 | size: %zu", pcl_point_cloud[01;31m[K->[m[Ksize());
+[3.945s]       |                            [01;31m[K^~[m[K
+[3.945s] 
+[3.945s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/lidar_odometry_node.cpp:74:24:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K’
+[3.945s]    74 |     if (pcl_point_cloud[01;31m[K->[m[Ksize() < 20) {
+[3.945s]       |                        [01;31m[K^~[m[K
+[3.945s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.946s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:43[m[K,
+[3.946s]                  from [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/lidar_odometry_node.cpp:3[m[K:
+[3.946s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/lidar_odometry_node.cpp:75:113:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K’
+[3.946s]    75 | his scan.", pcl_point_cloud[01;31m[K->[m[Ksize());
+[3.946s]       |                            [01;31m[K^~[m[K
+[3.946s] 
+[7.070s] gmake[2]: *** [CMakeFiles/lidar_odometry_node.dir/build.make:76: CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o] Error 1
+[7.071s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_odometry_node.dir/all] Error 2
+[7.071s] gmake: *** [Makefile:146: all] Error 2
+[7.073s] Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12

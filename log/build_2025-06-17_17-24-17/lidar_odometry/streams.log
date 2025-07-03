@@ -1,0 +1,90 @@
+[0.008s] Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry -DCMAKE_INSTALL_PREFIX=/home/kun/ros2_ws/install/lidar_odometry
+[0.019s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.105s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.123s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.126s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.157s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.158s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.168s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.196s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.211s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.234s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.264s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.522s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.526s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.526s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.630s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.636s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.640s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.737s] -- Found Qhull version 8.0.2
+[0.836s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.942s] -- looking for PCL_COMMON
+[0.942s] -- looking for PCL_KDTREE
+[0.943s] -- looking for PCL_OCTREE
+[0.943s] -- looking for PCL_SEARCH
+[0.943s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.943s] -- looking for PCL_FILTERS
+[0.943s] -- looking for PCL_2D
+[0.944s] -- looking for PCL_GEOMETRY
+[0.944s] -- looking for PCL_IO
+[0.944s] -- looking for PCL_FEATURES
+[0.944s] -- looking for PCL_ML
+[0.944s] -- looking for PCL_SEGMENTATION
+[0.945s] -- looking for PCL_VISUALIZATION
+[0.945s] -- looking for PCL_SURFACE
+[0.945s] -- looking for PCL_REGISTRATION
+[0.945s] -- looking for PCL_KEYPOINTS
+[0.945s] -- looking for PCL_TRACKING
+[0.946s] -- looking for PCL_RECOGNITION
+[0.946s] -- looking for PCL_STEREO
+[0.946s] -- looking for PCL_APPS
+[0.947s] -- looking for PCL_IN_HAND_SCANNER
+[0.947s] -- looking for PCL_MODELER
+[0.947s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.947s] -- looking for PCL_OUTOFCORE
+[0.947s] -- looking for PCL_PEOPLE
+[0.959s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.965s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.982s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.033s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.077s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.078s] -- Configured cppcheck include dirs: /home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/include;$<BUILD_INTERFACE:/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/include>
+[1.078s] -- Configured cppcheck exclude dirs and/or files: 
+[1.078s] -- Added test 'lint_cmake' to check CMake code style
+[1.079s] -- Added test 'uncrustify' to check C / C++ code style
+[1.080s] -- Configured uncrustify additional arguments: 
+[1.080s] -- Added test 'xmllint' to check XML markup files
+[1.081s] -- Configuring done
+[1.114s] -- Generating done
+[1.120s] -- Build files have been written to: /home/kun/ros2_ws/build/lidar_odometry
+[1.131s] Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry -DCMAKE_INSTALL_PREFIX=/home/kun/ros2_ws/install/lidar_odometry
+[1.132s] Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12
+[1.169s] [35m[1mConsolidate compiler generated dependencies of target lidar_odometry_node[0m
+[1.212s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o[0m
+[9.967s] [ 66%] [32m[1mLinking CXX executable lidar_odometry_node[0m
+[11.006s] [100%] Built target lidar_odometry_node
+[11.019s] Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12
+[11.026s] Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kun/ros2_ws/build/lidar_odometry
+[11.034s] -- Install configuration: ""
+[11.034s] -- Execute custom install script
+[11.034s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/lib/lidar_odometry/lidar_odometry_node
+[11.034s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/ament_index/resource_index/package_run_dependencies/lidar_odometry
+[11.034s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/ament_index/resource_index/parent_prefix_path/lidar_odometry
+[11.034s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/ament_prefix_path.sh
+[11.034s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/ament_prefix_path.dsv
+[11.035s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/path.sh
+[11.035s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/path.dsv
+[11.035s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/local_setup.bash
+[11.035s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/local_setup.sh
+[11.035s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/local_setup.zsh
+[11.035s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/local_setup.dsv
+[11.035s] -- Symlinking: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/package.dsv
+[11.041s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/ament_index/resource_index/packages/lidar_odometry
+[11.041s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/cmake/lidar_odometryConfig.cmake
+[11.041s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/cmake/lidar_odometryConfig-version.cmake
+[11.041s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/package.xml
+[11.042s] Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kun/ros2_ws/build/lidar_odometry

@@ -1,0 +1,6 @@
+Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kun/ros2_ws/install/lidar_odometry
+Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kun/ros2_ws/install/lidar_odometry
+Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12
+Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12
+Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kun/ros2_ws/build/lidar_odometry
+Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kun/ros2_ws/build/lidar_odometry

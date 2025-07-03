@@ -1,0 +1,1 @@
+/home/kun/ros2_ws/build/lidar_odometry/ament_cmake_environment_hooks/local_setup.bash
