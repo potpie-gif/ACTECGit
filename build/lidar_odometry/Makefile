@@ -210,6 +210,32 @@ lidar_odometry_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_odometry_node.dir/build.make CMakeFiles/lidar_odometry_node.dir/build
 .PHONY : lidar_odometry_node/fast
 
+#=============================================================================
+# Target rules for targets named wall_marker_node
+
+# Build rule for target.
+wall_marker_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wall_marker_node
+.PHONY : wall_marker_node
+
+# fast build rule for target.
+wall_marker_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_marker_node.dir/build.make CMakeFiles/wall_marker_node.dir/build
+.PHONY : wall_marker_node/fast
+
+#=============================================================================
+# Target rules for targets named qr_publisher
+
+# Build rule for target.
+qr_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qr_publisher
+.PHONY : qr_publisher
+
+# fast build rule for target.
+qr_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qr_publisher.dir/build.make CMakeFiles/qr_publisher.dir/build
+.PHONY : qr_publisher/fast
+
 src/lidar_odometry.o: src/lidar_odometry.cpp.o
 .PHONY : src/lidar_odometry.o
 
@@ -258,6 +284,54 @@ src/lidar_odometry_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_odometry_node.dir/build.make CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.s
 .PHONY : src/lidar_odometry_node.cpp.s
 
+src/qr_publisher.o: src/qr_publisher.cpp.o
+.PHONY : src/qr_publisher.o
+
+# target to build an object file
+src/qr_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qr_publisher.dir/build.make CMakeFiles/qr_publisher.dir/src/qr_publisher.cpp.o
+.PHONY : src/qr_publisher.cpp.o
+
+src/qr_publisher.i: src/qr_publisher.cpp.i
+.PHONY : src/qr_publisher.i
+
+# target to preprocess a source file
+src/qr_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qr_publisher.dir/build.make CMakeFiles/qr_publisher.dir/src/qr_publisher.cpp.i
+.PHONY : src/qr_publisher.cpp.i
+
+src/qr_publisher.s: src/qr_publisher.cpp.s
+.PHONY : src/qr_publisher.s
+
+# target to generate assembly for a file
+src/qr_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qr_publisher.dir/build.make CMakeFiles/qr_publisher.dir/src/qr_publisher.cpp.s
+.PHONY : src/qr_publisher.cpp.s
+
+src/wall_marker_node.o: src/wall_marker_node.cpp.o
+.PHONY : src/wall_marker_node.o
+
+# target to build an object file
+src/wall_marker_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_marker_node.dir/build.make CMakeFiles/wall_marker_node.dir/src/wall_marker_node.cpp.o
+.PHONY : src/wall_marker_node.cpp.o
+
+src/wall_marker_node.i: src/wall_marker_node.cpp.i
+.PHONY : src/wall_marker_node.i
+
+# target to preprocess a source file
+src/wall_marker_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_marker_node.dir/build.make CMakeFiles/wall_marker_node.dir/src/wall_marker_node.cpp.i
+.PHONY : src/wall_marker_node.cpp.i
+
+src/wall_marker_node.s: src/wall_marker_node.cpp.s
+.PHONY : src/wall_marker_node.s
+
+# target to generate assembly for a file
+src/wall_marker_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_marker_node.dir/build.make CMakeFiles/wall_marker_node.dir/src/wall_marker_node.cpp.s
+.PHONY : src/wall_marker_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -274,12 +348,20 @@ help:
 	@echo "... lidar_odometry_uninstall"
 	@echo "... uninstall"
 	@echo "... lidar_odometry_node"
+	@echo "... qr_publisher"
+	@echo "... wall_marker_node"
 	@echo "... src/lidar_odometry.o"
 	@echo "... src/lidar_odometry.i"
 	@echo "... src/lidar_odometry.s"
 	@echo "... src/lidar_odometry_node.o"
 	@echo "... src/lidar_odometry_node.i"
 	@echo "... src/lidar_odometry_node.s"
+	@echo "... src/qr_publisher.o"
+	@echo "... src/qr_publisher.i"
+	@echo "... src/qr_publisher.s"
+	@echo "... src/wall_marker_node.o"
+	@echo "... src/wall_marker_node.i"
+	@echo "... src/wall_marker_node.s"
 .PHONY : help
 
 

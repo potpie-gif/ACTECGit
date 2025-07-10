@@ -1,4 +1,6 @@
 /home/kun/ros2_ws/install/lidar_odometry/lib/lidar_odometry/lidar_odometry_node
+/home/kun/ros2_ws/install/lidar_odometry/lib/lidar_odometry/wall_marker_node
+/home/kun/ros2_ws/install/lidar_odometry/lib/lidar_odometry/qr_publisher
 /home/kun/ros2_ws/install/lidar_odometry/share/ament_index/resource_index/package_run_dependencies/lidar_odometry
 /home/kun/ros2_ws/install/lidar_odometry/share/ament_index/resource_index/parent_prefix_path/lidar_odometry
 /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/ament_prefix_path.sh

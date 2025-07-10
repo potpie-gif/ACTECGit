@@ -923,7 +923,7 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libz.so
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
@@ -1108,11 +1108,23 @@ message_filters_DIR:PATH=/opt/ros/humble/share/message_filters/cmake
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/humble/share/nav_msgs/cmake
 
+//The directory containing a CMake configuration file for orocos_kdl.
+orocos_kdl_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/orocos_kdl
+
+//Path to a library.
+orocos_kdl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+
+//The directory containing a CMake configuration file for orocos_kdl_vendor.
+orocos_kdl_vendor_DIR:PATH=/opt/ros/humble/share/orocos_kdl_vendor/cmake
+
 //The directory containing a CMake configuration file for pcl_conversions.
 pcl_conversions_DIR:PATH=/opt/ros/humble/share/pcl_conversions/cmake
 
 //The directory containing a CMake configuration file for pcl_msgs.
 pcl_msgs_DIR:PATH=/opt/ros/humble/share/pcl_msgs/cmake
+
+//Path to a library.
+pkgcfg_lib_MOSQUITTO_mosquitto:FILEPATH=/usr/lib/x86_64-linux-gnu/libmosquitto.so
 
 //Path to a library.
 pkgcfg_lib_PC_EXPAT_expat:FILEPATH=/usr/lib/x86_64-linux-gnu/libexpat.so
@@ -1258,6 +1270,9 @@ tf2_DIR:PATH=/opt/ros/humble/share/tf2/cmake
 //The directory containing a CMake configuration file for tf2_eigen.
 tf2_eigen_DIR:PATH=/opt/ros/humble/share/tf2_eigen/cmake
 
+//The directory containing a CMake configuration file for tf2_geometry_msgs.
+tf2_geometry_msgs_DIR:PATH=/opt/ros/humble/share/tf2_geometry_msgs/cmake
+
 //The directory containing a CMake configuration file for tf2_msgs.
 tf2_msgs_DIR:PATH=/opt/ros/humble/share/tf2_msgs/cmake
 
@@ -1272,6 +1287,9 @@ unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cma
 
 //utf8cpp include directory
 utf8cpp_INCLUDE_DIR:PATH=/usr/include/utf8cpp
+
+//The directory containing a CMake configuration file for visualization_msgs.
+visualization_msgs_DIR:PATH=/opt/ros/humble/share/visualization_msgs/cmake
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -1458,7 +1476,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_EXPAT:INTERNAL=[/usr/lib/x86_64-linux-gnu/libexpat.
 //Details about finding Eigen
 FIND_PACKAGE_MESSAGE_DETAILS_Eigen:INTERNAL=[/usr/include/eigen3][v(3.1)]
 //Details about finding Eigen3
-FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[/usr/include/eigen3][v3.4.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.4.0()]
 //Details about finding FLANN
 FIND_PACKAGE_MESSAGE_DETAILS_FLANN:INTERNAL=[/usr/lib/x86_64-linux-gnu/libflann_cpp.so][/usr/include][v()]
 //Details about finding Freetype
@@ -1537,6 +1555,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_PCL_TRACKING:INTERNAL=[/usr/lib/x86_64-linux-gnu/li
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_VISUALIZATION:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_visualization.so][/usr/include/pcl-1.12][v()]
 //Details about finding PNG
 FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpng.so][/usr/include][v1.6.37()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
 //Details about finding TIFF
@@ -1583,6 +1603,41 @@ JsonCpp_LIBRARY-ADVANCED:INTERNAL=1
 LZ4_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LZ4_LIBRARY
 LZ4_LIBRARY-ADVANCED:INTERNAL=1
+MOSQUITTO_CFLAGS:INTERNAL=
+MOSQUITTO_CFLAGS_I:INTERNAL=
+MOSQUITTO_CFLAGS_OTHER:INTERNAL=
+MOSQUITTO_FOUND:INTERNAL=1
+MOSQUITTO_INCLUDEDIR:INTERNAL=/usr/include
+MOSQUITTO_INCLUDE_DIRS:INTERNAL=
+MOSQUITTO_LDFLAGS:INTERNAL=-L/usr/lib;-lmosquitto
+MOSQUITTO_LDFLAGS_OTHER:INTERNAL=
+MOSQUITTO_LIBDIR:INTERNAL=/usr/lib
+MOSQUITTO_LIBRARIES:INTERNAL=mosquitto
+MOSQUITTO_LIBRARY_DIRS:INTERNAL=/usr/lib
+MOSQUITTO_LIBS:INTERNAL=
+MOSQUITTO_LIBS_L:INTERNAL=
+MOSQUITTO_LIBS_OTHER:INTERNAL=
+MOSQUITTO_LIBS_PATHS:INTERNAL=
+MOSQUITTO_MODULE_NAME:INTERNAL=libmosquitto
+MOSQUITTO_PREFIX:INTERNAL=/usr
+MOSQUITTO_STATIC_CFLAGS:INTERNAL=
+MOSQUITTO_STATIC_CFLAGS_I:INTERNAL=
+MOSQUITTO_STATIC_CFLAGS_OTHER:INTERNAL=
+MOSQUITTO_STATIC_INCLUDE_DIRS:INTERNAL=
+MOSQUITTO_STATIC_LDFLAGS:INTERNAL=-L/usr/lib;-lmosquitto
+MOSQUITTO_STATIC_LDFLAGS_OTHER:INTERNAL=
+MOSQUITTO_STATIC_LIBDIR:INTERNAL=
+MOSQUITTO_STATIC_LIBRARIES:INTERNAL=mosquitto
+MOSQUITTO_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib
+MOSQUITTO_STATIC_LIBS:INTERNAL=
+MOSQUITTO_STATIC_LIBS_L:INTERNAL=
+MOSQUITTO_STATIC_LIBS_OTHER:INTERNAL=
+MOSQUITTO_STATIC_LIBS_PATHS:INTERNAL=
+MOSQUITTO_VERSION:INTERNAL=2.0.11
+MOSQUITTO_libmosquitto_INCLUDEDIR:INTERNAL=
+MOSQUITTO_libmosquitto_LIBDIR:INTERNAL=
+MOSQUITTO_libmosquitto_PREFIX:INTERNAL=
+MOSQUITTO_libmosquitto_VERSION:INTERNAL=
 //ADVANCED property for variable: MPIEXEC_EXECUTABLE
 MPIEXEC_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPIEXEC_MAX_NUMPROCS
@@ -2192,6 +2247,7 @@ _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-l
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
 //Index for unique symlink install targets
 __AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
+__pkg_config_arguments_MOSQUITTO:INTERNAL=REQUIRED;libmosquitto
 __pkg_config_arguments_PC_EIGEN:INTERNAL=eigen3
 __pkg_config_arguments_PC_EXPAT:INTERNAL=QUIET;expat
 __pkg_config_arguments_PC_FLANN:INTERNAL=flann
@@ -2199,6 +2255,7 @@ __pkg_config_arguments_PC_OPENNI:INTERNAL=QUIET;libopenni
 __pkg_config_arguments_PC_OPENNI2:INTERNAL=QUIET;libopenni2
 __pkg_config_arguments_PC_libusb:INTERNAL=libusb-1.0
 __pkg_config_arguments_PKG_FONTCONFIG:INTERNAL=QUIET;fontconfig
+__pkg_config_checked_MOSQUITTO:INTERNAL=1
 __pkg_config_checked_PC_EIGEN:INTERNAL=1
 __pkg_config_checked_PC_EXPAT:INTERNAL=1
 __pkg_config_checked_PC_FLANN:INTERNAL=1
@@ -2224,6 +2281,8 @@ double-conversion_INCLUDE_DIR-ADVANCED:INTERNAL=1
 double-conversion_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: libusb_LIBRARIES
 libusb_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_MOSQUITTO_mosquitto
+pkgcfg_lib_MOSQUITTO_mosquitto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PC_EXPAT_expat
 pkgcfg_lib_PC_EXPAT_expat-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PC_EXPAT_m

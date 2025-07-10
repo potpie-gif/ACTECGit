@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kun/ros2_ws/build/lidar_odometry/lidar_odometry_node" "TARGETS" "lidar_odometry_node" "DESTINATION" "lib/lidar_odometry")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kun/ros2_ws/build/lidar_odometry/lidar_odometry_node" "/home/kun/ros2_ws/build/lidar_odometry/wall_marker_node" "/home/kun/ros2_ws/build/lidar_odometry/qr_publisher" "TARGETS" "lidar_odometry_node" "wall_marker_node" "qr_publisher" "DESTINATION" "lib/lidar_odometry")

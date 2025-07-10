@@ -1,0 +1,14 @@
+/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp: In constructor ‘WallMarkerNode::WallMarkerNode()’:
+/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:228:9: warning: ‘WallMarkerNode::marker_id_’ will be initialized after [-Wreorder]
+  228 |     int marker_id_;
+      |         ^~~~~~~~~~
+/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:224:23: warning:   ‘mosquitto* WallMarkerNode::mosq_’ [-Wreorder]
+  224 |     struct mosquitto *mosq_;
+      |                       ^~~~~
+/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:19:5: warning:   when initialized here [-Wreorder]
+   19 |     WallMarkerNode() : Node("wall_marker_node"), marker_id_(0), mosq_(nullptr), running_(true)
+      |     ^~~~~~~~~~~~~~
+/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp: In lambda function:
+/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:64:68: warning: unused parameter ‘mosq’ [-Wunused-parameter]
+   64 |         mosquitto_message_callback_set(mosq_, [](struct mosquitto *mosq, void *obj, const struct mosquitto_message *msg) {
+      |                                                  ~~~~~~~~~~~~~~~~~~^~~~

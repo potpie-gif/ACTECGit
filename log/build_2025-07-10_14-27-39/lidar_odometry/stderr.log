@@ -1,0 +1,14 @@
+[01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:[m[K In constructor ‘[01m[KWallMarkerNode::WallMarkerNode()[m[K’:
+[01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:235:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KWallMarkerNode::marker_id_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  235 |     int [01;35m[Kmarker_id_[m[K;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:231:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kmosquitto* WallMarkerNode::mosq_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  231 |     struct mosquitto *[01;35m[Kmosq_[m[K;
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:19:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   19 |     [01;35m[KWallMarkerNode[m[K() : Node("wall_marker_node"), marker_id_(0), mosq_(nullptr), running_(true)
+      |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:[m[K In lambda function:
+[01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:64:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmosq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 |         mosquitto_message_callback_set(mosq_, []([01;35m[Kstruct mosquitto *mosq[m[K, void *obj, const struct mosquitto_message *msg) {
+      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K

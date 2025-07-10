@@ -1,1 +1,1 @@
-rclcpp;nav_msgs;sensor_msgs;geometry_msgs;Eigen3;PCL;laser_geometry;pcl_conversions;tf2;tf2_eigen;ament_lint_auto;ament_lint_common
+rclcpp;nav_msgs;sensor_msgs;geometry_msgs;Eigen3;PCL;laser_geometry;pcl_conversions;tf2;tf2_eigen;visualization_msgs;std_msgs;ament_lint_auto;ament_lint_common

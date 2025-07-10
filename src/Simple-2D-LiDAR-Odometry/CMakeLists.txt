@@ -17,6 +17,11 @@ find_package(laser_geometry REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_eigen REQUIRED)
+find_package(visualization_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(MOSQUITTO REQUIRED libmosquitto)
 
 # uncomment the following section in order to fill in
 # further dependencies manually.
@@ -46,7 +51,27 @@ target_include_directories(lidar_odometry_node PUBLIC
 target_link_libraries(lidar_odometry_node
   ${PCL_LIBRARIES}
 )
-install(TARGETS lidar_odometry_node
+
+add_executable(wall_marker_node src/wall_marker_node.cpp)
+ament_target_dependencies(wall_marker_node
+  rclcpp
+  sensor_msgs
+  std_msgs
+  visualization_msgs
+  tf2
+  tf2_geometry_msgs
+)
+target_link_libraries(wall_marker_node ${MOSQUITTO_LIBRARIES})
+target_include_directories(wall_marker_node PRIVATE ${MOSQUITTO_INCLUDE_DIRS})
+target_compile_options(wall_marker_node PRIVATE ${MOSQUITTO_CFLAGS_OTHER})
+
+add_executable(qr_publisher src/qr_publisher.cpp)
+ament_target_dependencies(qr_publisher
+  rclcpp
+  std_msgs
+)
+
+install(TARGETS lidar_odometry_node wall_marker_node qr_publisher
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -1,0 +1,12 @@
+[0.008s] Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12
+[0.049s] [ 14%] Building CXX object CMakeFiles/wall_marker_node.dir/src/wall_marker_node.cpp.o
+[0.051s] [ 42%] Built target qr_publisher
+[0.059s] [ 85%] Built target lidar_odometry_node
+[0.185s] /home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:11:10: fatal error: mosquitto.h: No such file or directory
+[0.185s]    11 | #include <mosquitto.h>
+[0.185s]       |          ^~~~~~~~~~~~~
+[0.185s] compilation terminated.
+[0.196s] gmake[2]: *** [CMakeFiles/wall_marker_node.dir/build.make:76: CMakeFiles/wall_marker_node.dir/src/wall_marker_node.cpp.o] Error 1
+[0.197s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/wall_marker_node.dir/all] Error 2
+[0.197s] gmake: *** [Makefile:146: all] Error 2
+[0.199s] Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12

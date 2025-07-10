@@ -1,0 +1,44 @@
+[0.009s] Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target wall_marker_node[0m
+[0.047s] [ 28%] Built target qr_publisher
+[0.055s] [ 42%] [32mBuilding CXX object CMakeFiles/wall_marker_node.dir/src/wall_marker_node.cpp.o[0m
+[0.062s] [ 85%] Built target lidar_odometry_node
+[1.485s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:[m[K In constructor ‘[01m[KWallMarkerNode::WallMarkerNode()[m[K’:
+[1.485s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:248:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KWallMarkerNode::marker_id_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.485s]   248 |     int [01;35m[Kmarker_id_[m[K;
+[1.485s]       |         [01;35m[K^~~~~~~~~~[m[K
+[1.485s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:244:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kmosquitto* WallMarkerNode::mosq_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.485s]   244 |     struct mosquitto *[01;35m[Kmosq_[m[K;
+[1.485s]       |                       [01;35m[K^~~~~[m[K
+[1.485s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:19:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.485s]    19 |     [01;35m[KWallMarkerNode[m[K() : Node("wall_marker_node"), marker_id_(0), mosq_(nullptr), running_(true)
+[1.485s]       |     [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.493s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:[m[K In lambda function:
+[1.493s] [01m[K/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:64:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmosq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.493s]    64 |         mosquitto_message_callback_set(mosq_, []([01;35m[Kstruct mosquitto *mosq[m[K, void *obj, const struct mosquitto_message *msg) {
+[1.493s]       |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[5.232s] [100%] [32m[1mLinking CXX executable wall_marker_node[0m
+[5.530s] [100%] Built target wall_marker_node
+[5.543s] Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kun/ros2_ws/build/lidar_odometry -- -j12 -l12
+[5.550s] Invoking command in '/home/kun/ros2_ws/build/lidar_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kun/ros2_ws/build/lidar_odometry
+[5.555s] -- Install configuration: ""
+[5.555s] -- Execute custom install script
+[5.556s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/lib/lidar_odometry/lidar_odometry_node
+[5.556s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/lib/lidar_odometry/wall_marker_node
+[5.556s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/lib/lidar_odometry/qr_publisher
+[5.556s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/ament_index/resource_index/package_run_dependencies/lidar_odometry
+[5.556s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/ament_index/resource_index/parent_prefix_path/lidar_odometry
+[5.556s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/ament_prefix_path.sh
+[5.556s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/ament_prefix_path.dsv
+[5.557s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/path.sh
+[5.557s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/environment/path.dsv
+[5.557s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/local_setup.bash
+[5.557s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/local_setup.sh
+[5.557s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/local_setup.zsh
+[5.557s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/local_setup.dsv
+[5.557s] -- Symlinking: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/package.dsv
+[5.563s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/ament_index/resource_index/packages/lidar_odometry
+[5.564s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/cmake/lidar_odometryConfig.cmake
+[5.564s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/cmake/lidar_odometryConfig-version.cmake
+[5.564s] -- Up-to-date symlink: /home/kun/ros2_ws/install/lidar_odometry/share/lidar_odometry/package.xml
+[5.565s] Invoked command in '/home/kun/ros2_ws/build/lidar_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kun/ros2_ws/build/lidar_odometry

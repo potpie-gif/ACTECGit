@@ -1,0 +1,10 @@
+[ 14%] Building CXX object CMakeFiles/wall_marker_node.dir/src/wall_marker_node.cpp.o
+[ 42%] Built target qr_publisher
+[ 85%] Built target lidar_odometry_node
+/home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/src/wall_marker_node.cpp:11:10: fatal error: mosquitto.h: No such file or directory
+   11 | #include <mosquitto.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wall_marker_node.dir/build.make:76: CMakeFiles/wall_marker_node.dir/src/wall_marker_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/wall_marker_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

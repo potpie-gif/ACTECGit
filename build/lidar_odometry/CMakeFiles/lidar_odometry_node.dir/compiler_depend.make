@@ -3620,6 +3620,7 @@ CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o: /home/kun/ros2
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
   /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
   /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
+  /opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.h \
   /home/kun/ros2_ws/src/Simple-2D-LiDAR-Odometry/include/lidar_odometry/lidar_odometry.hpp \
   /usr/include/pcl-1.12/pcl/registration/gicp.h \
   /usr/include/pcl-1.12/pcl/registration/bfgs.h \
@@ -3961,6 +3962,8 @@ CMakeFiles/lidar_odometry_node.dir/src/lidar_odometry_node.cpp.o: /home/kun/ros2
   /opt/ros/humble/include/tf2/tf2/buffer_core.h \
   /opt/ros/humble/include/laser_geometry/laser_geometry/visibility_control.hpp
 
+
+/opt/ros/humble/include/tf2_ros/tf2_ros/static_transform_broadcaster.h:
 
 /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp:
 
